@@ -6,7 +6,7 @@ const Counter = () => {
   // Simulate fetching initial data for the Counter component
   useEffect(() => {
     setTimeout(() => {
-      setCount(0); // Set initial value after 2 seconds
+      setCount(0);  // Set initial value after 2 seconds
     }, 2000);
   }, []);
 
