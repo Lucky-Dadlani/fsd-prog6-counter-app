@@ -1,13 +1,14 @@
 import React from 'react';
 import Counter from './Counter';  // Ensure the correct import path
+import ClassMgt from './classMgt';  // Ensure the correct import path
 import './App.css';  // Optional, only if you have this file
 
 function App() {
   return (
-    <div className="App">
-      <h1>Welcome to Counter App</h1>
-      <Counter />
-    </div>
+      <div>
+          <Counter />
+      <ClassMgt />
+      </div>
   );
 }
 export default App;
